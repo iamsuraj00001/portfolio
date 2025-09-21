@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Suraj Semwal - Frontend Web Developer Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portfolio of Suraj Semwal, Frontend Web Developer skilled in WordPress, Shopify, Next.js, Bootstrap, HTML, CSS, Sass, and jQuery." />
+        <meta name="keywords" content="Frontend Developer, Web Developer, WordPress, Shopify, Next.js, Bootstrap, HTML, CSS, Sass, jQuery, Portfolio" />
+        <meta name="author" content="Suraj Semwal" />
+        <meta name="email" content="ssemwal181096@gmail.com" />
+        <meta name="phone" content="+91-6395525749" />
+        <meta name="website" content="https://your-portfolio-link.com" />
+        <meta name="Version" content="v1.0.0" />
+        <!-- favicon -->
+        <link href="images/favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/tiny-slider.css" rel="stylesheet" type="text/css" />
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" rel="stylesheet" />
+        <!-- Main Css -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    </head>
+
+    <body>
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <img src="images/logo.png" class="logo-light-mode" alt="">
+                    <img src="images/logo.png" class="logo-dark-mode" alt="">
+                </a>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item search-icon mb-0">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-link text-decoration-none dropdown-toggle mb-0 p-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="uil uil-search h5 text-dark mb-0"></i>
+                            </button>
+                            <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-4 py-0" style="width: 300px;">
+                                <form class="p-4">
+                                    <input type="text" id="text" name="name" class="form-control border bg-white" placeholder="Search...">
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div id="navigation">
+                    <!-- Navigation Menu-->
+                    <ul class="navigation-menu nav-right">
+                        <li><a href="index.html" class="sub-menu-item">Home</a></li>
+                        <li><a href="#skills" class="sub-menu-item">Skills</a></li>
+                        <li><a href="#portfolio" class="sub-menu-item">Portfolio</a></li>
+                        <li><a href="#contact" class="sub-menu-item">Contact</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half position-relative" style="background: url('images/bg/corporate01.png') center;">
+            <div class="bg-overlay bg-gradient-white-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Left Side -->
+                    <div class="col-lg-7 mb-4 mb-lg-0">
+                        <div class="title-heading">
+                            <h4 class="mb-0">Hello, I'M</h4>
+                            <h4 class="heading mb-4"><span id="typed" class="fw-semibold"></span></h4>
+
+                            <p class="para-desc title-dark text-muted mb-0">
+                                I am a Frontend Web Developer with over 5 years of experience. I am skilled in WordPress and Bootstrap, with beginner-level experience in Shopify and Next.js. Along with expertise in HTML, CSS, Sass, and jQuery, I build modern, user-friendly, and fully responsive websites.
+                            </p>
+
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side -->
+                    <div class="col-lg-5 text-center mt-4 mt-lg-0">
+                        <div class="fancy-border">
+                            <img src="images/about.jpg" alt="About Me" class="img-fluid rounded">
+                            <span class="border-light"></span>
+                        </div>
+                    </div>
+                </div><!--end row-->
+            </div><!--end container-->
+        </section>
+        <!-- Hero End -->
+
+        <!-- Skills Start -->
+        <section class="section bg-light mt-15 mt-15" id="skills">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title fw-bold mt-3">My Skills</h4>
+                            <p class="para-desc mx-auto text-muted mb-0">I specialize in WordPress, Bootstrap, Shopify, and Next.js to build responsive and modern websites.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card bg-white border-0 p-4 text-center rounded features features-classic feature-primary">
+                            <i class="mdi mdi-wordpress icon h1"></i>
+                            <div class="content">
+                                <h5 class="title text-dark h5">WordPress</h5>
+                                <p class="text-muted mb-0 mt-3">Expert in building dynamic and responsive WordPress websites for clients.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card bg-white border-0 p-4 text-center rounded features features-classic feature-primary">
+                            <i class="mdi mdi-bootstrap icon h1"></i>
+                            <div class="content">
+                                <h5 class="title text-dark h5">Bootstrap</h5>
+                                <p class="text-muted mb-0 mt-3">Proficient in bootstrap responsive layouts using Bootstrap.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card bg-white border-0 p-4 text-center rounded features features-classic feature-primary">
+                            <i class="mdi mdi-cart-outline icon h1"></i>
+                            <div class="content">
+                                <h5 class="title text-dark h5">Shopify</h5>
+                                <p class="text-muted mb-0 mt-3">Beginner in creating Shopify e-commerce websites and online stores.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card bg-white border-0 p-4 text-center rounded features features-classic feature-primary">
+                            <i class="mdi mdi mdi-react icon h1"></i>
+                            <div class="content">
+                                <h5 class="title text-dark h5">Next.js</h5>
+                                <p class="text-muted mb-0 mt-3">Beginner in building modern web apps and single-page applications using Next.js.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section>
+        <!-- Skills End -->
+
+        <!-- Portfolio Start -->
+        <section class="section pt-5 pb-0" id="portfolio">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title fw-bold mt-3 mb-4">My Portfolio</h4>
+                            <p class="para-desc mx-auto text-muted mb-0">A showcase of my frontend web next js projects, featuring responsive websites built with WordPress, Bootstrap, Shopify, and Next.js.</p>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-12">
+                        <div class="filters-group-wrap text-center">
+                            <div class="filters-group">
+                                <ul class="container-filter mb-0 categories-filter list-unstyled filter-options">
+                                    <li class="list-inline-item categories position-relative active" data-group="all">All</li>
+                                    <li class="list-inline-item categories position-relative" data-group="wordpress">WordPress</li>
+                                    <li class="list-inline-item categories position-relative" data-group="bootstrap">Bootstrap</li>
+                                    <li class="list-inline-item categories position-relative" data-group="shopify">Shopify</li>
+                                    <li class="list-inline-item categories position-relative" data-group="nextjs">Next JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div id="grid" class="row mt-4">
+                    <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["wordpress"]'>
+                        <div class="card portfolio portfolio-creative portfolio-primary shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="images/portfolio/01.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+
+                                <div class="lightbox-icon">
+                                    <a href="images/portfolio/01.jpg" class="lightbox text-dark"><i class="mdi mdi-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content p-3">
+                                <a href="portfolio-detail-two.html" class="text-dark h6 mb-0 d-block title">The Leaf and Letter</a>
+                                <small class="text-muted fw-normal mb-0">wordpress</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["bootstrap"]'>
+                        <div class="card portfolio portfolio-creative portfolio-primary shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="images/portfolio/02.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            
+                                <div class="lightbox-icon">
+                                    <a href="images/portfolio/02.jpg" class="lightbox text-dark"><i class="mdi mdi-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content p-3">
+                                <a href="portfolio-detail-two.html" class="text-dark h6 mb-0 d-block title">The Papers</a>
+                                <small class="text-muted fw-normal mb-0">bootstrap</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["shopify"]'>
+                        <div class="card portfolio portfolio-creative portfolio-primary shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="images/portfolio/03.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            
+                                <div class="lightbox-icon">
+                                    <a href="images/portfolio/03.jpg" class="lightbox text-dark"><i class="mdi mdi-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content p-3">
+                                <a href="portfolio-detail-two.html" class="text-dark h6 mb-0 d-block title">The Headphones</a>
+                                <small class="text-muted fw-normal mb-0">shopify</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["nextjs"]'>
+                        <div class="card portfolio portfolio-creative portfolio-primary shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="images/portfolio/04.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            
+                                <div class="lightbox-icon">
+                                    <a href="images/portfolio/04.jpg" class="lightbox text-dark"><i class="mdi mdi-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content p-3">
+                                <a href="portfolio-detail-two.html" class="text-dark h6 mb-0 d-block title">The Projects</a>
+                                <small class="text-muted fw-normal mb-0">nextjs</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["wordpress"]'>
+                        <div class="card portfolio portfolio-creative portfolio-primary shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="images/portfolio/05.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            
+                                <div class="lightbox-icon">
+                                    <a href="images/portfolio/05.jpg" class="lightbox text-dark"><i class="mdi mdi-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content p-3">
+                                <a href="portfolio-detail-two.html" class="text-dark h6 mb-0 d-block title">The Cup of Coffee</a>
+                                <small class="text-muted fw-normal mb-0">wordpress</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-4 col-12 spacing picture-item" data-groups='["bootstrap"]'>
+                        <div class="card portfolio portfolio-creative portfolio-primary shadow rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img src="images/portfolio/06.jpg" class="img-fluid" alt="">
+                                <div class="overlay"></div>
+                            
+                                <div class="lightbox-icon">
+                                    <a href="images/portfolio/06.jpg" class="lightbox text-dark"><i class="mdi mdi-plus"></i></a>
+                                </div>
+                            </div>
+                            <div class="content p-3">
+                                <a href="portfolio-detail-two.html" class="text-dark h6 mb-0 d-block title">The Pen and Books</a>
+                                <small class="text-muted fw-normal mb-0">bootstrap</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <!--Pagination Start--
+                <div class="row">
+                    <div class="col-12 mt-4 pt-2">
+                        <ul class="pagination justify-content-center mb-0">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><i class="mdi mdi-chevron-left mdi-18px"></i></span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="mdi mdi-chevron-right mdi-18px"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Pagination End -->
+
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Portfolio End -->
+
+        <!-- Review Start -->
+        <section class="section mt-100 mt-60 bg-light" id="review">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title fw-bold mb-4">Client's Review</h4>
+                            <p class="text-muted para-desc mb-0 mx-auto">
+                                See what clients and collaborators say about my work and professionalism.
+                            </p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tiny-three-item">
+                            <div class="tiny-slide">
+                                <div class="card bg-white border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="images/client/01.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">"Suraj built our website exactly as we envisioned. The design is clean and responsive."</p>
+                                        <h6 class="text-primary">- Aisha Khan</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card bg-white border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="images/client/02.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">"Professional and fast! Suraj’s expertise in WordPress and Bootstrap really shows."</p>
+                                        <h6 class="text-primary">- Rohan Mehta</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card bg-white border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="images/client/03.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">"Friendly, reliable, and skilled. Suraj made sure the website works perfectly on mobile and desktop."</p>
+                                        <h6 class="text-primary">- Priya Sharma</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card bg-white border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="images/client/04.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">"Suraj is great at understanding requirements and turning ideas into a functional website."</p>
+                                        <h6 class="text-primary">- Vikram Singh</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card bg-white border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="images/client/05.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">"Very happy with the results. Suraj’s work is modern, responsive, and easy to manage."</p>
+                                        <h6 class="text-primary">- Neha Verma</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card bg-white border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="images/client/06.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">"Excellent communication and quality work. Suraj delivered everything on time."</p>
+                                        <h6 class="text-primary">- Aarav Patel</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section>
+        <!-- Review End -->
+    
+        <!-- Footer Start -->
+        <footer class="footer bg-primary">
+            <div class="py-5 footer-border-bottom" id="contact">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <div class="section-title">
+                                <div class="d-flex">
+                                    <i class="uil uil-envelope-star display-4 text-white title-dark"></i>
+                                    <div class="flex-1 ms-md-4 ms-3">
+                                        <h4 class="fw-semibold text-light title-dark mb-1">Let’s Work Together</h4>
+                                        <p class="text-white mb-0">
+                                            I’m available for freelance projects or full-time opportunities. Get in touch and let’s create something amazing together.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--end col-->
+
+                        <div class="col-md-4 mt-4 mt-sm-0">
+                            <div class="text-md-end ms-5 ms-sm-0">
+                                <a href="javascript:void(0)" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#contact-popup">Contact Now</a>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end div-->
+
+            <div class="footer-py-30 footer-bar bg-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-2">
+                            <div class="text-sm-start text-center">
+                                <a href="#">
+                                    <img src="images/logo.png" height="26" alt="">
+                                </a>
+                            </div>
+                        </div><!--end col-->
+    
+                        <div class="col-sm-6 mt-4 mt-sm-0">
+                            <div class="text-center">
+                                <p class="mb-0 text-muted">
+                                    <script>document.write(new Date().getFullYear())</script> © Work with Suraj <i class="mdi mdi-weather-sunny text-primary"></i>
+                                </p>
+
+                            </div>
+                        </div><!--end col-->
+    
+                        <div class="col-sm-4 mt-4 mt-sm-0">
+                            <ul class="list-unstyled social-icon foot-social-icon text-sm-end text-center mb-0">
+                                <li class="list-inline-item"><a href="https://1.envato.market/starty" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                                <li class="list-inline-item"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance" title="Behance"></i></a></li>
+                                <li class="list-inline-item"><a href="http://linkedin.com/company/shreethemes" target="_blank" class="rounded"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                                <li class="list-inline-item"><a href="https://forms.gle/QkTueCikDGqJnbky9" target="_blank" class="rounded"><i class="uil uil-file align-middle" title="customization"></i></a></li>
+                            </ul><!--end icon-->
+                            
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- End -->
+
+        <!-- contact Form Start -->
+        <div class="modal fade" id="contact-popup" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog  modal-lg modal-dialog-centered">
+                <div class="modal-content rounded shadow border-0 overflow-hidden">
+                    <div class="modal-body p-0">
+                        <div class="container-fluid px-0">
+                            <div class="row align-items-center g-0">
+                                <div class="col-lg-6 col-md-5">
+                                    <img src="images/about.jpg" class="img-fluid" alt="">
+                                </div><!--end col-->
+
+                                <div class="col-lg-6 col-md-7">
+                                    <form class="p-4" method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
+                                        <p id="error-msg" class="mb-0"></p>
+                                        <div id="simple-msg"></div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                                    <input name="name" id="name" type="text" class="form-control" placeholder="Name :">
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email :">
+                                                </div> 
+                                            </div><!--end col-->
+        
+                                            <div class="col-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Subject</label>
+                                                    <input name="subject" id="subject" class="form-control" placeholder="subject :">
+                                                </div>
+                                            </div><!--end col-->
+        
+                                            <div class="col-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Comments <span class="text-danger">*</span></label>
+                                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Message :"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+                                    </form>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div><!--end container-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact Form End -->
+
+        <!-- Back to top -->
+        <a href="javascript:void(0)" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill"><i class="mdi mdi-arrow-up"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/shuffle.min.js"></script>
+        <script src="js/tobii.min.js"></script>
+        <script src="js/tiny-slider.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+
+        <script>
+            var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                typeSpeed: 200,
+                loop: true,
+                strings: [
+                    'Suraj Semwal', 'Frontend Web Developer', 'IT Professional',
+                ],
+            });
+        </script>
+    </body>
+</html>

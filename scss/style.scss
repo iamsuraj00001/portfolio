@@ -1,0 +1,101 @@
+/* Template Name: Starty - Multipurpose HTML Template
+   Author: Shreethemes
+   Version: v1.3.0
+   Created: August 2021
+   File Description: Main Css file of the template
+*/
+
+/*********************************/
+/*         INDEX                 */
+/*================================
+ *     01.  Variables            *
+ *     02.  Bootstrap Custom     *
+ *     03.  Components           *
+ *     04.  General              *
+ *     05.  Helper               *
+ *     06.  Menu                 *
+ *     07.  Home / Landing       *
+ *     08.  Features / Services  *
+ *     09.  C.T.A                *
+ *     10.  Team                 *
+ *     11.  Testimonial          *
+ *     12.  Portfolio            *
+ *     13.  Blog                 *
+ *     14.  Pricing              *
+ *     15.  Countdown            *
+ *     16.  Contact              *
+ *     17.  Footer               *
+ ================================*/
+
+@import "variables";
+@import "bootstrap-custom";
+@import "components";
+@import "general";
+@import "helper";
+@import "menu";
+@import "home";
+@import "features";
+@import "cta";
+@import "team";
+@import "testi";
+@import "portfolio";
+@import "pricing";
+@import "countdown";
+@import "contact";
+@import "footer";
+
+// Hero Section
+.fancy-border {
+  position: relative;
+  display: inline-block;
+  padding: 10px; // original thickness
+  border-radius: 20px;
+  background: #FFB300; // main border color
+  overflow: hidden;
+
+  img {
+    display: block;
+    border-radius: 15px; // fits inside border
+    width: 100%; // fully fills the parent minus padding
+    max-width: 350px; // keeps desktop size consistent
+    height: auto;
+  }
+
+  .border-light {
+    position: absolute;
+    width: 20px;  // original moving element size
+    height: 20px;
+    border-radius: 50%;
+
+    // Sun-like glowing dot
+    background: radial-gradient(circle, #FFD54F, #FFB300, #FFA000);
+    box-shadow: 0 0 10px #FFD54F, 0 0 20px #FFB300;
+
+    top: 0;
+    left: 0;
+    animation: move-border 6s linear infinite; // slower speed
+  }
+}
+
+@keyframes move-border {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: calc(100% - 20px);
+  }
+  50% {
+    top: calc(100% - 20px);
+    left: calc(100% - 20px);
+  }
+  75% {
+    top: calc(100% - 20px);
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
