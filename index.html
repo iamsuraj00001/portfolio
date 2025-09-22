@@ -84,7 +84,7 @@
                     <!-- Left Side -->
                     <div class="col-lg-7 mb-4 mb-lg-0">
                         <div class="title-heading">
-                            <h4 class="mb-0">Hello, I'M</h4>
+                            <h4 class="mb-0">Hello, I'm</h4>
                             <h4 class="heading mb-4"><span id="typed" class="fw-semibold"></span></h4>
 
                             <p class="para-desc title-dark text-muted mb-0">
@@ -92,7 +92,7 @@
                             </p>
 
                             <div class="mt-4">
-                                <a href="javascript:void(0)" class="btn btn-primary">Hire Me</a>
+                                <a href="#contact" class="btn btn-primary">Hire Me</a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                             <i class="mdi mdi-wordpress icon h1"></i>
                             <div class="content">
                                 <h5 class="title text-dark h5">WordPress</h5>
-                                <p class="text-muted mb-0 mt-3">Expert in building dynamic and responsive WordPress websites for clients.</p>
+                                <p class="text-muted mb-0 mt-3">Proficient in building dynamic and responsive WordPress websites.</p>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -137,7 +137,7 @@
                             <i class="mdi mdi-bootstrap icon h1"></i>
                             <div class="content">
                                 <h5 class="title text-dark h5">Bootstrap</h5>
-                                <p class="text-muted mb-0 mt-3">Proficient in bootstrap responsive layouts using Bootstrap.</p>
+                                <p class="text-muted mb-0 mt-3">Skilled in creating responsive websites and modern UI using Bootstrap.</p>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -147,7 +147,7 @@
                             <i class="mdi mdi-cart-outline icon h1"></i>
                             <div class="content">
                                 <h5 class="title text-dark h5">Shopify</h5>
-                                <p class="text-muted mb-0 mt-3">Beginner in creating Shopify e-commerce websites and online stores.</p>
+                                <p class="text-muted mb-0 mt-3">Beginner in developing Shopify e-commerce websites and online stores.</p>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -157,7 +157,7 @@
                             <i class="mdi mdi mdi-react icon h1"></i>
                             <div class="content">
                                 <h5 class="title text-dark h5">Next.js</h5>
-                                <p class="text-muted mb-0 mt-3">Beginner in building modern web apps and single-page applications using Next.js.</p>
+                                <p class="text-muted mb-0 mt-3">Beginner in building modern and responsive web apps using Next.js.</p>
                             </div>
                         </div>
                     </div><!--end col-->
@@ -167,7 +167,7 @@
         <!-- Skills End -->
 
         <!-- Portfolio Start -->
-        <section class="section pt-5 pb-5" id="portfolio">
+        <section class="section mt-15 mt-15" id="portfolio">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12">
@@ -486,14 +486,14 @@
 
                         <div class="col-md-4 mt-4 mt-sm-0">
                             <div class="text-md-end ms-5 ms-sm-0">
-                                <a href="javascript:void(0)" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#contact-popup">Contact Now</a>
+                                <a href="javascript:void(0)" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contact-popup">Contact Now</a>
                             </div>
                         </div><!--end col-->
                     </div><!--end row-->
                 </div><!--end container-->
             </div><!--end div-->
 
-            <div class="footer-py-30 footer-bar bg-footer">
+            <div class="footer-py-30 footer-bar bg-black">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-sm-2">
@@ -515,8 +515,10 @@
     
                         <div class="col-sm-4 mt-4 mt-sm-0">
                             <ul class="list-unstyled social-icon foot-social-icon text-sm-end text-center mb-0">
+                                <!--
                                 <li class="list-inline-item"><a href="/" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
                                 <li class="list-inline-item"><a href="/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+                                -->
                                 <li class="list-inline-item"><a href="https://www.linkedin.com/in/iamsuraj001" target="_blank" class="rounded"><i class="uil uil-linkedin" title="Linkedin"></i></a></li>
                             </ul><!--end icon-->
                             
@@ -539,41 +541,39 @@
                                 </div><!--end col-->
 
                                 <div class="col-lg-6 col-md-7">
-                                    <form class="p-4" method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
-                                        <p id="error-msg" class="mb-0"></p>
-                                        <div id="simple-msg"></div>
+                                    <form class="p-4" id="myForm">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label">Your Name <span class="text-danger">*</span></label>
-                                                    <input name="name" id="name" type="text" class="form-control" placeholder="Name :">
+                                                    <input name="name" id="name" type="text" class="form-control" placeholder="Name :" required>
                                                 </div>
                                             </div>
         
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label">Your Email <span class="text-danger">*</span></label>
-                                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email :">
+                                                    <input name="email" id="email" type="email" class="form-control" placeholder="Email :" required>
                                                 </div> 
                                             </div><!--end col-->
         
                                             <div class="col-12">
                                                 <div class="mb-3">
                                                     <label class="form-label">Subject</label>
-                                                    <input name="subject" id="subject" class="form-control" placeholder="subject :">
+                                                    <input name="subject" id="subject" class="form-control" placeholder="Subject :">
                                                 </div>
                                             </div><!--end col-->
         
                                             <div class="col-12">
                                                 <div class="mb-3">
                                                     <label class="form-label">Comments <span class="text-danger">*</span></label>
-                                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Message :"></textarea>
+                                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Message :" required></textarea>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-12">
-                                                <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
+                                                <button type="submit" class="btn btn-primary">Send Message</button>
                                             </div><!--end col-->
                                         </div><!--end row-->
                                     </form>
